@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>To Do App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1><i>To Do App</i></h1>
+    <h2 id="z">Offene Aufgaben:</h2>
+    <ul id="listItems" >
+        <li value="0" id="0">
+            <input type="checkbox"> Lernen! <i  class="li0 fas fa-trash-alt loeschen"></i>
+        </li>
+        <li  value="1" id="1">
+            <input type="checkbox"> Hausarbeiten! <i class="li1 fas fa-trash-alt loeschen"></i>
+        </li>
+        <li  value="2" id="2">
+            <input type="checkbox"> Schlaf nachholen! <i class="li2 fas fa-trash-alt loeschen"></i>
+        </li>
+    </ul>
+    <input class= "newItemText" id="inputValue" type="text" placeholder="Neue Aufgabe...">
+    <button onclick="addListItem()" class="addItem">+</button>
+
+    <script src="todoapp.js"></script>
+    <script src="https://kit.fontawesome.com/4f6e0f2f94.js"></script>
+
+</body>
+
+</html>

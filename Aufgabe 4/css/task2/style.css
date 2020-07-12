@@ -1,0 +1,62 @@
+body {
+    background-image: url("../../images/task2/bg.png");
+    margin: 0;
+    padding: 16px;   
+}
+
+.center{
+  height: 400px;
+  width:600px;
+  position: absolute;
+  background-image: url("../../images/task2/wrapperbg.png");
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+h1{
+    color:#fff;
+    margin-left:100px;
+    margin-right:50px;
+    margin-top:50px;
+}
+
+span{
+    display: block;
+}
+
+p {
+    color:#fff;
+    margin-left:80px;
+    margin-right:60px;
+}
+
+#muschel1{
+    position:absolute;
+    left: 60px;
+    bottom: 50px;
+}
+
+#muschel2{
+    position:absolute;
+    left: 180px;
+    bottom: 150px;
+}
+
+#muschel3{
+    position:absolute;
+    left: 300px;
+    bottom: 110px;
+}
+
+.image_off, #muschel1:hover .image_on, #muschel2:hover .image_on, #muschel3:hover .image_on{
+    display:none
+ }
+ .image_on, #muschel1:hover .image_off, #muschel2:hover .image_off, #muschel3:hover .image_off{
+    display:block
+ }

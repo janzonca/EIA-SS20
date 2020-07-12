@@ -1,0 +1,47 @@
+body {
+    background-image: url("../../images/task4/bg.png");
+    margin: 0;
+    padding: 16px;   
+}
+
+.center{
+  height: 400px;
+  width:600px;
+  position: absolute;
+  background-image: url("../../images/task4/wrapperbg.png");
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+h1{
+    color:#fff;
+    margin-left:80px;
+    margin-right:120px;
+    margin-top:50px;
+}
+
+label{
+    color:white;
+}
+
+form {
+    margin-left:50px;
+    margin-right:60px;
+    width:200px;
+}
+
+.button
+{
+    font-size: 13px;
+    color:#fff;
+}
+
+input[type="radio"]{
+    vertical-align: baseline;
+}

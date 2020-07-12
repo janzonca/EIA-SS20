@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Jellyka_Delicious_Cake;
+    src: url(../../fonts/task3/Jellyka_Delicious_Cake.ttf)  format('truetype');
+  }
+
+
+body {
+    background-image: url("../../images/task3/bg.png");
+    margin: 0;
+    padding: 16px;   
+    font-family: Jellyka_Delicious_Cake;
+}
+
+.center{
+  height: 400px;
+  width:600px;
+  position: absolute;
+  background-image: url("../../images/task3/wrapperbg.png");
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+h1{
+    color:#fff;
+    font-size: 36px;
+    margin-left:80px;
+    margin-right:120px;
+    margin-top:50px;
+}
+
+span{
+    display: block;
+}
+
+p {
+    color:#fff;
+    font-size: 20px;
+    margin-left:80px;
+    margin-right:60px;
+}

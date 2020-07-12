@@ -1,0 +1,33 @@
+body {
+    background-image: url("../../images/task7/bg.png");
+    margin: 0;
+    padding: 16px;   
+}
+
+.center{
+  height: 400px;
+  width:600px;
+  position: absolute;
+  background-image: url("../../images/task7/wrapperbg.png");
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+img{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+
+iframe{
+    position:absolute;
+    left:75px;
+    right:75px;
+    top:50px;
+    z-index:-1;
+}

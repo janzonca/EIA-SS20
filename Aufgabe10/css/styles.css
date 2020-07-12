@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #EE82EE;
+}
+
+h1{
+color: whitesmoke;
+}
+
+p{
+    color: whitesmoke;
+}
+main {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#counter {
+    color: whitesmoke;
+}
+
+#counterDone{
+    color: whitesmoke;
+}
+
+#counterTodo{
+    color: whitesmoke;
+}
+
+.inputGroup {
+    position: relative;
+}
+#inputTodo {
+    background: #f5daef;
+    font-size: 20px;
+    padding: 20px 50px;
+    border: none;
+    width: 100%;
+    height: 64px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #EE82EE;
+    outline: none;
+    color: whitesmoke;
+}
+
+#addButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #8A2Be2;
+    cursor: pointer;
+}
+#addButton:hover {
+    color: #ed11e2;
+}
+
+#todos {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.42);
+
+}
+
+.todo {
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    padding: 20px 50px;
+    background: #f5daef;
+    border-bottom: 1px solid #EE82EE;
+}
+
+.check {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    border: 1px solid #EE82EE;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    color:#8A2Be2 ;
+}
+
+.check i {
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+.check.false i {
+    display: none;
+}
+
+.trash {
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    color: #8A2Be2;
+    cursor: pointer;
+}
+
+.trash:hover {
+    color: #ed11e2;
+}

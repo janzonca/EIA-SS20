@@ -1,0 +1,57 @@
+body{
+    background-color: #EE82EE;
+     font-family: Serif;
+     font-size: xx-large;
+     color: white;
+     text-align:center;
+}
+
+h2 {
+    font-size: larger;
+}
+
+li {
+    list-style: none;
+    font-size: large;
+    color: #8A2Be2;
+    background-color: #f5daef;
+    width: 180px;
+    position: relative;
+    text-align: left;
+    margin-left: 40% ;
+}
+
+.newItemText {
+    position: relative;
+    margin-top: 3.5%;
+    height: 25px;
+}
+
+.addItem {
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    padding: 7px;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    background: #fcc7ff;
+    color: #ed11e2;
+}
+
+.addItem:hover {
+    background-color: #fcc7ff;
+}
+
+
+.fa-trash-alt{
+    font-size: 15px;
+    color: #ed11e2 ;
+    float:right;
+    margin-right:5px;
+    margin-top:2px;
+}
+  
+  
+

@@ -1,0 +1,76 @@
+body {
+    background-image: url("../../images/task6/bg.png");
+    margin: 0;
+    padding: 16px;   
+}
+
+.center{
+  height: 400px;
+  width:600px;
+  position: absolute;
+  background-image: url("../../images/task6/wrapperbg.png");
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1{
+    color:#fff;
+    margin-left:80px;
+    margin-right:120px;
+    margin-top:50px;
+}
+
+p{
+    color:#fff;
+    font-size:12px;
+    padding-left:45px;
+    padding-right:300px;
+    margin-top:70px;
+}
+
+#muschel1{
+    position:absolute;
+    left:450px;
+    top:50px;
+}
+#muschel2{
+    position:absolute;
+    left:300px;
+    bottom:50px;
+}
+
+#muschel3{
+    position:absolute;
+    left:90px;
+    top:90px;
+}
+
+#star1{
+    position:absolute;
+    left:180px;
+    top:90px;
+}
+
+#star2{
+    position:absolute;
+    left:40px;
+    top:240px;
+}
+#star3{
+    position:absolute;
+    left:60px;
+    top:600px;
+}
+
+
+.video{
+    position: absolute;
+    right:30px;
+    bottom:30px;
+    z-index:-1;
+}
